@@ -1,1 +1,1 @@
-# home-work
+# mentoring-simple-webpack-starter
