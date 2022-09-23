@@ -1,4 +1,5 @@
 import "./main.scss";
+import "../src/modules/lesson2/lesson2";
 
 const add123 = (a, b) => a + b;
 
