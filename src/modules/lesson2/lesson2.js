@@ -67,17 +67,19 @@
 //   } \n ваш пол: ${gender} \n вы на пенсии: ${ifPensionUser}`
 // );
 
-let line = "";
+// let line = "";
 
-for (let outside = 0; outside < 8; outside++) {
-  for (let inside = 0; inside < 8; inside++) {
-    if ((outside + inside) % 2 == 0) {
-      line += "#";
-    } else {
-      line += " ";
-    }
-  }
-  line += "\n";
-}
+// for (let outside = 0; outside < 8; outside++) {
+//   for (let inside = 0; inside < 8; inside++) {
+//     if ((outside + inside) % 2 == 0) {
+//       line += "#";
+//     } else {
+//       line += " ";
+//     }
+//   }
+//   line += "\n";
+// }
 
-console.log(line);
+// console.log(line);
+
+const arr = [1, 4, 34, 566, [34, 56], 65, 34, [[34], [54]]];
