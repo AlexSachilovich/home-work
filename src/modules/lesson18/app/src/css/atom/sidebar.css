@@ -1,0 +1,24 @@
+.menu__item {
+  list-style-type: none;
+  margin: 10px 10px 10px 30px;
+}
+
+.sidenav {
+  height: 100%;
+  width: 260px;
+  position: absolute;
+  background-color: rgb(55, 127, 244);
+  padding-top: 20px;
+}
+.sidenav__hidden {
+  transition-duration: 4s;
+  transform: translateX(-250px);
+  transition-duration: 4s;
+}
+
+.menu__item a {
+  color: #f5f5fa;
+  text-decoration: none;
+  font-size: 17px;
+  line-height: 21px;
+}
